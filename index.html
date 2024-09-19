@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Event Planning</h1>
+    <form id="addEvent">
+    <label>
+        Event Name
+        <input type="text" name="name" />
+      </label>
+      <label>
+        Date
+        <input type="datetime" name="date"/>
+      </label>
+      <label>
+        Location
+        <input type="string" name="location"/>
+      </label>
+        Description
+        <input type="text" name="description" />
+      </label>
+      <label>
+      <button>Add Event</button>
+    </form>
+    <ul id="events"></ul>
+  </body>
+</html>
